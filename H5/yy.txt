@@ -1,0 +1,18 @@
+<from name="微信" method="post/get" action=""</form>
+文本框
+<input type="text" value=""/>
+<link rel="stylesheet" type="text/css" href="目标文件的路径及文件名全称29  18
+
+
+url:写css相关路径
+background-image:url()；
+@import url();
+
+src: <img src=""/>
+
+href  a  link
+
+显示一张图
+
+<img/>  大图片
+background:url() 小图标

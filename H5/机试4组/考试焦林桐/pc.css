@@ -1,0 +1,261 @@
+*{margin: 0; padding: 0;}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    height: 64px;
+}
+.header1{
+    height: 64px;
+    width: 1122px;
+    margin: 0 auto;
+}
+.header .header1 .header2{
+    float: left;
+}
+.header .header2 img{
+    margin-top: 20px;
+}
+.header .header1 ul{
+   width: 569px;
+   height: 64px;
+   margin-left: 202px;
+
+   float: left;
+}
+.header .header1 ul li {
+    float: left;
+    text-align: center;
+    line-height: 64px;
+    margin-right: 33px;
+    font-size: 13px;
+
+}
+.header .header1 ul li a{
+    color: #333333;
+}
+.header .header1  .header3 img{
+    margin-top: 26px;
+}
+
+.pc img{
+    width:100%;
+    display: block;
+}
+.list{
+    height: 136px;
+    
+}
+.list1{
+    height: 136px;
+    width: 909px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.list1 ul{
+    height: 97px;
+    width: 909px;
+    margin-top: 39px; 
+    float: left;
+}
+.list ul li{
+    float: left;
+    width: 100px;
+    height: 97px;
+    text-align: center;
+}
+.list ul li p{
+   margin-top: 31px;
+   font-size: 12px;
+   color: #333333;
+   line-height: 1;
+}
+
+.tp img{
+   width:100%;
+    display: block;
+}
+.liaojie{
+    height:394px;
+}
+.liaojie1-1{
+    width: 50%;
+    float: left;
+}
+.liaojie1{
+    width: 50%;
+    height:394px;
+    float: left;
+    background:url(images/about_02.jpg)no-repeat ;background-size:100% 100%;
+}
+.liaojie1-1 img{
+    width:100%;
+    height:394px;
+    display: block;
+}
+.liaojie1 h3{
+    font-size: 24px;
+    margin-top: 84px;
+    margin-left:80px;
+}
+.liaojie1 p{
+    width:470px;
+    font-size: 14px;
+    color:#666666;
+    margin-top:48px;
+    margin-left:20px;
+    text-indent:2em; 
+}
+.liaojie1 a{
+    display: block;
+    width:120px;
+    height:40px;
+    font-size: 12px;
+    color:#ffffff;
+    text-align: center;
+    line-height: 40px;
+    background:#2464F2;
+    margin-top:32px;
+    margin-left:362px;
+    border-radius: 200px;
+}
+.presentation{
+    height:222px;
+    text-align: center;
+    display: block;
+    line-height: 1;
+}
+.presentation h3{
+    font-size: 36px;
+    color:#333333;
+    font-weight: 300;
+    padding-top:53px;
+    margin-bottom:27px;
+}
+.presentation p{
+    font-size: 14px;
+    color:#7A7A7A;
+    margin-bottom:28px;
+}
+.presentation img:nth-of-type(1){
+    margin-right:16px;
+}
+.video{
+    height: 294px;
+    background:url(images/videoBg.jpg)no-repeat;
+    background-position: 0 74px;
+}
+.video_cen{
+    width:910px;
+    margin:0 auto;
+}
+.video_cen dl{
+    float: left;
+    text-align: center;
+    line-height: 1;
+}
+.video_cen dl:nth-of-type(2){
+    margin-left:11px;
+    margin-right:11px;
+}
+.video_cen dt{
+   display: block;
+}
+.video_cen dl dd:nth-of-type(1){
+    margin-top:18px;
+    margin-bottom:11px;
+    font-size: 16px;
+    color:#000000;
+}
+.video_cen dl dd:nth-of-type(2){
+    font-size: 12px;
+    color:#000000;
+}
+.biv{
+    height:150px;
+    text-align: center;
+
+}
+.biv h3{
+    font-size: 32px;
+    color:#333333;
+    margin-top:54px;
+    padding-bottom:30px;
+}
+.biv h4{
+    font-size: 14px;
+    color:#7A7A7A;
+}
+.bp{
+    width:960px;
+    height:542px;
+    margin:0 auto;
+}
+.bp ul{
+    float: left;
+}
+.bp ul li{
+    display: block;
+    width:158px;
+    height:110px;
+    float: left;
+    border-right:1px solid #EEF7FD;
+    border-bottom:1px solid #EEF7FD;
+    position: relative;
+}
+.bp ul img{
+    position: absolute;
+    margin: auto;
+    top:0 ;bottom:0 ;
+    left:0;right:0;
+    
+}
+.bp ul li:nth-of-type(3n+1) a img{
+    display: block;
+    width: 106px;
+    height:36px;
+}
+.bp ul li:nth-of-type(3n+2) a img{
+    display: block;
+    width: 121px;
+    height:33px;
+}
+.bp ul li:nth-of-type(3n) a img{
+    display: block;
+    width: 70px;
+    height:80px;
+}
+.bp ul li:nth-of-type(6n){
+    border-right:0;
+}
+.bp ul li:nth-of-type(n+19){
+    border-bottom:0;
+}
+.bp p{
+    width:77px;
+    padding-top:41px;
+    margin-left:438px;
+    margin-bottom:21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.information{
+    width:960px;
+    height:280px;
+    background: #0061E7;
+    margin:0 auto;
+}
+.information h2{
+    font-size: 34px;
+    color:#ffffff;
+    padding-top:47px;
+}
+.information form{
+    width: 220px;
+    height:26px;
+    border-bottom:1px solid #44AAF0;
+}

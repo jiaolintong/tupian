@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+*{margin:0;padding:0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+.clear_all:after{content: "";clear: both;display: block;height: 0;overflow: hidden;visibility: hidden;}
+.clear_all{zoom: 1;}
+/*头部*/
+/*.header{height: 98px;background:#ffffff;border-bottom:1px solid #e8e8e8;}
+.header_cen{height: 98px;width: 1200px;margin:0 auto;}*/
+/*.header_cen img{float: left;}*/
+/*.header_cen ul{float: right;}
+.header_cen ul li{float: left;margin-right:25px;padding-bottom:3px;margin-top:50px;font-size:13px;}
+.header_cen ul li a{color:#555555;}
+.header_cen ul .nav_1,.header_cen ul .nav_2{margin-right:20px;}
+.header_cen ul .nav_9{margin-right:20px;color:#555555;background:url(../img/phone.png) no-repeat left center;padding-left:50px;}
+.header_cen ul .nav_9 img{margin-left:6px;vertical-align:middle;}
+.header_cen ul li:hover{border-bottom: 2px solid #ff1d00;}
+.header_cen .nav_1:hover{border: none;}
+.header_cen .nav_9:hover{border: none;}*/
+.nav-wrap{height:99px;background: #fff;}
+.nav{width:1198px;height:99px;margin: auto;}
+.nav h1 img{float:left;}
+.nav ul{float:left;margin-left:480px;text-align:center;line-height: 99px;    }
+.nav ul li{float: left;}
+.nav li a{ width:30px;font-size:16px;color:#555555;margin:0 12px;transition: all 2s;}
+.nav .active, .nav a:hover{border-bottom: 2px solid red;font-size: 20px;}
+.nav span { padding: 0 14px;line-height: 99px;}
+.nav img {line-height: 99px;vertical-align: middle;}
+/*banner*/
+.banner img{width:100%;display:block;}
+/*part3*/
+/*.picture{height:1500px;}*/
+.picture .pic_red{width:50%;float: left;height: 380px;background:#ff1d00;}
+.pic_red img{display:block;float:left;margin-top:36px;}
+.picture ul{float:left;width:50%;background: #f3f4f6;height:380px;}
+.picture ul h3{font-size: 18px;color:#ff1d00;font-weight:500;padding-top:74px;line-height:1;text-indent:39px;padding-bottom:34px;}
+.picture li{font-size: 12px;text-indent: 39px;color:#434345;line-height:30px;}
+.pic_word{width:50%;/*background: pink;*/clear:both;float:left;}
+.pic_word h3{font-size: 18px;color:#ff1d00;font-weight:500;padding:43px 0 34px 150px;line-height:1;}
+.pic_word p{font-size: 12px;padding:0 123px 39px 150px;color:#434345;line-height:30px;}
+.picture .pic_1,.picture .pic_2{width:25%;float:left;}
+.picture .pic_3{width: 50%;padding-bottom: 80px;float: left;}
+
+/*We Work In The Best*/
+.bigtitle_1{height:219px;background:#1c1c1e;}
+.bigtitle_1 h3{font-size:30px;color:#ffffff;text-align:center;line-height:1;padding-top:77px;}
+.bigtitle_1 p{font-size:12px;line-height:1;color:#88888e;text-align:center;padding-top:33px;}
+/*part4 数字*/
+.advertise{height:800px;}
+.advertise_cen{height:800px;width:1200px;/*background:pink;*/margin:0 auto;}
+.advertise_cen dl{margin:100px 120px 72px 0;float:left;/*background: palegreen;*/}
+.advertise_cen dd{margin-top:34px;font-size:15px;color:#4a4a4c;text-align:center;line-height: 1;}
+.advertise_cen .adv_1{margin-left:30px;}
+.advertise_cen .adv_5{margin-right:10px;}
+.advertise_cen .adv_images{clear:both;}
+.advertise_cen .adv_images img{float:left;margin:0 10px 20px 10px;border:1px solid #7f7f7f;}
+
+/*凡高人真棒*/
+.bigtitle_2 h3{font-size: 29px;}
+.bigtitle_2 p{padding-top: 29px;}
+/*we love doing what we do*/
+.photo img{width:25%;float:left;}
+.photo .photo_word1{width:50%;height:270px;background:#ff1d00;font-size:30px;color:#FFFFFF;overflow: hidden;float: left;}
+.photo .photo_word1 p{line-height: 40px;width: 245px;text-align: center;margin-top:93px;margin-left:279px;}
+.photo .photo_word2{width:50%;height:270px;float:left;background:#f3f4f6; ;}
+.photo .photo_word2 h3{font-size: 17px;line-height: 1;color: #fe1d00;padding:39px 0 24px 50px;font-weight: 500;}
+.photo .photo_word2 p{font-size: 12px;color:#434345;line-height: 30px;padding-left:50px ;}
+.photo_part2{background:#21282e;}
+.photo .photo_word3{width:25%;float:left;/*background:#21282e;*/text-align: center;font-size: 22px;line-height: 32px;color: #ffffff;font-weight:500;padding-top: 125px;}
+.photo_part3{background:#f7f7f7;}
+.photo .photo_word4{width:50%;float:left;}
+.photo .photo_word4 p{width:215px;text-align: center;font-size:23px;line-height: 30px;padding: 132px 0 0 292px;}
+/*底部*/
+/*.foot{height:57px;background:#1f1e26;clear:left;}
+.foot p{padding-top:33px;font-size:11px;text-align:center;color:#5c5b5f;}*/
+.footer{height: 78px;background: #1f1e26;}
+.footer1{width:1198px;margin: auto;background: #1f1e26;height:78px;}
+.footer1 p{font-size:11px;color:#5c5b5f;text-align: center;line-height: 78px;width:1198px;
+display: inline-block;}
+.ask_fixed{position:fixed;right:0;bottom:21%;}

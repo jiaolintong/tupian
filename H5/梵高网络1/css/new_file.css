@@ -1,0 +1,87 @@
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+.nav-wrap{
+    height:99px;
+    background: #fff;
+}
+.nav{
+    width:1198px;
+    height:99px;
+    margin: auto;
+}
+.nav h1 img{
+    float:left;
+}
+.nav ul{
+    float:left;
+    margin-left:480px;
+    text-align:center;
+    line-height: 99px;
+    
+}
+.nav ul li{
+    float: left;
+}
+.nav li a{  
+    width:30px;
+    font-size:16px;
+    color: #555555;
+    margin:0 12px;
+    transition: all 2s;
+}
+
+.nav .active, .nav a:hover  {
+   border-bottom: 2px solid red;
+   font-size: 20px;
+}
+
+.nav span {
+    padding: 0 14px;
+    line-height: 99px;
+}
+.nav img {
+    line-height: 99px;
+    vertical-align: middle;
+}
+    
+.banner_zjl img{width:100%;display:block;}
+
+.con_zjl{height:1230px;}
+.con_zjl .img{display:block;width:118px;height:153px;position:fixed;bottom:21%;right:0;}
+.con_cen_zjl{width:1200px;height:1230px;margin:0 auto;}
+.con_cen_zjl .ul1{width:677px;margin:0 auto;}
+.con_cen_zjl .ul1 li{float:left;font-size:12px;text-align:center;margin-top:60px;margin-bottom:65px;}
+.con_cen_zjl .ul1 li a{color:#a7a7a9;display:block;width:90px;height:26px;line-height:26px;border:1px solid #e8e8e8;border-radius:50px;margin-right:25px;} 
+.con_cen_zjl .ul1 .list1 a{margin-right:0;}
+
+.con_cen_zjl .box1{width:573px;height:150px;border:1px solid #e8e8e8;float:left;margin-bottom:50px;}
+.con_cen_zjl .box1 img{float:left;margin-right:28px;border:0;}
+.con_cen_zjl .box1 a{font-size:12px;color:#959393;line-height:1;display:block}
+.con_cen_zjl .box1 a .dd1{font-size:17px;color:#605f5f;font-weight:400;padding:24px 0 15px 0;}
+.con_cen_zjl .box1 p{background:url(../img/images_zjl/bg.jpg) no-repeat 258px top;padding:4px 0 12px 276px;}
+.con_cen_zjl .box2{margin-right:50px;}
+
+.con_cen_zjl .ul2{float:right;}
+.con_cen_zjl .ul2 li{float:left;border:1px solid #dddddd;margin:5px 0 0 15px;}
+.con_cen_zjl .ul2 li a{display:block;height:30px;line-height:30px;float:left;font-size:12px;color:#8e908f;padding:0 13px;}
+.con_cen_zjl .ul2 li a:hover{background:#353535;color:#fff;}
+
+.footer{
+    height: 78px;
+    background: #1f1e26;
+}
+.footer1{
+    width:1198px;
+    margin: auto;
+    background: #1f1e26;
+    height:78px;
+}
+.footer1 p{
+    font-size:11px;
+    color:#5c5b5f;
+    text-align: center;
+    line-height: 78px;
+    width:1198px;
+    display: inline-block;
+}

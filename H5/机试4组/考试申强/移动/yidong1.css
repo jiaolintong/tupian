@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;}
+html{font-size:32vw; }
+.head{width: 100%; height: 0.366rem; background: #0085cf;display: flex;align-items: center;}
+.head img:nth-of-type(1){margin-left:0.083rem;margin-right: 0.075rem;width: 0.208rem;height: 0.208rem;}
+.head h3{font-size: 0.141rem; color: #fff; }
+.head img:nth-of-type(2){margin-left: 1.1rem;width: 0.275rem;height: 0.275rem;}
+.changyong{width: 100%; height:0.291rem ;display: flex; box-sizing: border-box; padding:0 0.108rem; align-items: center; justify-content: space-between;background: #f6f6f6;}
+.changyong div:nth-of-type(1){font-size: 0.129rem;}
+.changyong div:nth-of-type(2){font-size: 0.095rem; border:1px  solid #dddddd; color: #999999;border-radius: 0.083rem;line-height: 1; padding:0.033rem 0.104rem ;width:0.416rem ;text-align:center;}
+.taocan{ height:0.833rem; width: 100%;}
+.taocan div{height: 100%;width: 0.766rem; float: left;}
+.taocan div img{width: 0.304rem; padding-top:0.191rem; padding-bottom: 0.129rem; margin: 0 auto; display: block;}
+.taocan div p{margin: 0 auto; font-size:0.091rem; line-height:1;text-align: center;}
+.taocan div:nth-of-type(1){margin-left:0.225rem;}
+.taocan div:nth-of-type(3){width: 0.666rem;height:0.666rem; background:#f6f6f6; margin-top:0.087rem;border-radius:0.02rem ;}
+.guodu{height: 0.12rem;border-bottom:1px solid #dddddd;background: #f6f6f6;}
+
+.body{width: 100%;display: flex;}
+.bodyl{width:0.75rem; }
+.bodyl div{width: 100%;height:0.5rem;border-top:1px solid #dddddd;border-left:1px solid #dddddd;line-height:0.5rem; text-align: center;font-size: 0.108rem;background: #f6f6f6;}
+.bodyl div:hover{border-top:none; color:#1f94d5;background:#fff;}
+.bodyr{flex-grow:1; display: flex;flex-wrap: wrap;width: 2.37rem; padding-top: 0.495rem;}
+.bodyr div{width:33.3%;height:0.741rem;}
+.bodyr div img{width:0.3rem;height: 0.312rem;display: block;padding-top:0.108rem; padding-bottom: 0.12rem;margin: 0 auto;}
+.bodyr div p{font-size: 0.091rem; text-align: center; margin: 0 auto;}
+
+.foor{height: 0.425rem; border-top:1px solid #eeeeee;position: fixed;bottom:0; width: 100%; display: flex; background: #fff; justify-content:space-around;}
+.foor div{width:0.333rem; height: 0.425rem;}
+.foor img{width: 0.204rem;height:0.183rem;padding:0.07rem 0 0.041rem 0;margin: 0 auto;display: block;}
+.foor p{font-size:0.083rem ; text-align: center; margin: 0 auto;line-height:1;}

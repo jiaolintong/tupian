@@ -1,0 +1,35 @@
+body,p,ul,dl,dd,img,a{margin:0;padding:0;}
+img,a,span{display:block;}
+html{font-size:32vw;}
+a{text-decoration:none;}
+li{list-style:none;}
+
+header{width:100%;height:0.366rem;background:#0085cf;padding:0 0.008rem 0 0.083rem;margin-top:0.166rem;display:flex;align-items:center;justify-content:space-between;box-sizing:border-box;}
+header p img{width:0.208rem;height:0.208rem;margin-right:0.075rem;}
+header a img{width:0.275rem;height:0.275rem;}
+header p{font-size:0.141rem;color:#fff;display:flex;align-items:center;}
+
+.boxs{width:100%;height:0.291rem;background:#f6f6f6;padding:0.108rem;display:flex;justify-content:space-between;align-items:center;box-sizing:border-box;}
+.boxs h3{font-size:0.125rem;color:#333333;font-weight:400;}
+.boxs p{width:0.408rem;height:0.166rem;border:1px solid #dddddd;border-radius:50px;text-align:center;line-height:0.166rem;}
+.boxs p a{font-size:0.095rem;color:#999999;}
+
+.cont{height:0.833rem;display:flex;padding-left:0.045rem;border-bottom:0.12rem solid #f6f6f6;}
+.cont a{width:0.758rem;font-size:0.091rem;color:#666666;display: flex;flex-direction:column;align-items:center;padding:0.179rem 0 0.133rem 0;line-height:1;}
+.cont a:nth-of-type(3){padding:0.087rem 0;}
+.cont img{width:0.3rem;height:0.3rem;margin-bottom:0.12rem;}
+.cont a:nth-of-type(3) img{width:0.658rem;height:0.658rem;margin-bottom:0;}
+
+section{border-top:1px solid #dddddd;display:flex;justify-content:space-between;margin-bottom:0.416rem;}
+section ul li{width:0.745rem;
+font-size:0.108rem;border-top:1px solid #dddddd;border-left:1px solid #dddddd;line-height:0.5rem;text-align: center;background:#f6f6f6;}
+section ul li a{color:#333333;}
+section ul li:nth-of-type(1) a{color:#1c92d4;}
+section ul li:nth-of-type(1){background: #fff;border-top:0;}
+section .main_con{display: flex;flex-wrap: wrap;padding:0 0.05rem;padding-top:0.387rem;}
+section .main_con a{width:33%;font-size:0.091rem;color:#666666;display: flex;flex-direction: column;align-items:center;}
+section .main_con a img{width:0.3rem;height:0.3rem;margin:0.22rem 0 0.12rem 0;}
+
+footer{width:100%;height:0.425rem;display:flex;align-items:center;position:fixed;bottom:0;background:#fff;border-top:1px solid #dddddd;}
+footer a{font-size:0.083rem;color:#a09bbb;line-height:1;flex:1;display: flex;flex-direction:column;align-items:center;}
+footer a img{width:0.2rem;height:0.2rem;margin-bottom:0.041rem;}

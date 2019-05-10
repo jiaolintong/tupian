@@ -1,0 +1,105 @@
+1.关于HTML说法正确的是(A)
+ A 放在尖角号里的第一个单词叫做标记，也叫做标签，也称作元素
+ B 一个标签可以有多个属性，但是属性是区分先后顺序的
+ C 标记和属性之间可以不用空格隔开
+ D 属性值可以不用引号
+2.HTML中不包括哪种列表(A)
+ A 常规列表
+ B 有序列表
+ C 无序列表
+ D 自定义列表
+3.在HTML中,若实现点击超链接时,弹出一个新的网页窗口,下列的哪个选项符合要求
+ A <a href="right.html" target="_blank">节目</a>
+ B <a href="right.html" target="_self">节目</a>
+ C <a href="right.html" target="_parent">节目</a>
+ D <a href="right.html" target="_top">节目</a>
+正确答案: A
+解析:
+target="_blank"新窗口打开
+
+target="_self"当前窗口打开
+4.在HTML中，下面不属于HTML文档的基本组成部分的是
+ A <style></style>
+ B <body></body>
+ C <html></html>
+ D <head></head>
+正确答案: A
+解析:
+HTML的基本结构组成
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+</head>
+<body></body>
+</html>
+5.在网页中常见的图片格式
+ A JPG和GIF
+ B JPG和PSD
+ C PSD和BMP
+ D PNG和SWF
+正确答案: A
+解析:
+网页中，常见的图片格式为jpg,png,gif
+6.超链接的语法：
+
+<a href="链接地址">链接文本/图片</a>
+7. <title>网页标题</title>
+8.以下关于HTML当中常用的基本标签说法正确的是
+ B 段落标签<p>中可以包含多行文字，文字内容将随浏览器窗口大小自动换行
+ HTML共提供了６级标题，<h1>字号最大，<h6>字号最小
+ 水平线标签为<hr/>
+ 标签<em>&hellip;&hellip;</em>的作用是使字体斜体并不能加粗
+9.  form表单域   input,select为表单元素   table为表格标签
+10.  ID选择符权重为0100
+11. 三个样式表
+12.表单框:<form name="表单名称" method="post/get" action=""></form>
+ 文本框:<input type="text" value="默认值"/>
+ 密码框:<input type="password" placeholder="密码" />提交按钮:<input type="submit"value="按钮内容" />或者<button></button>重置按钮:<input  type="reset" value=“按钮内容” />
+13.在HTML中，下列代码是实现“注册”的超链接，要求点击“注册”后register.html页面在自身窗口打开，
+横线处应该填写 <a ①:href__="register.html"target="②:_self">注册</a>
+14.首先是外边距，所以用到的肯定是margin属性，顾D选项排除，再根据margin属性值的设置方式 ，四个值时是上右下左的顺序，4个值上  右  下  左 所以选择A选项。
+15.在HTML中,下面代码哪个是已被访问过呈红色文字的样式
+ A a:link{color:red;} 超链接的初始状态; B a:hover{color:red;} 鼠标悬停，即鼠标划过超链接时的状态;
+ C a:visited{color:red;} 超链接被访问后的状态;;
+ D a:active{color:red;} 鼠标悬停，即鼠标划过超链接时的状态;正确答案: C
+解析:
+：visited是设置访问过后样式的选择符
+16.下列css属性中用于指定内容与边框之间距离为2px的是 padding:2px
+17.为了让以下id为container的div能够水平居中，需要的CSS样式是
+ #container{width:880px;margin:0px auto;}//块元素的居中方式为margin:任何值auto;
+18.padding(内边距)代表盒子与内部元素之间的距离
+19.<from action="post" method="test.html">from改成form, method中放的是传输方式，action中放的是地址
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

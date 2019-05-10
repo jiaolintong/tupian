@@ -1,0 +1,128 @@
+版权?--------&copy;
+注册商标?--------&reg;
+商标?--------&trade;
+<sup></sup>上标    <sub></sub>下标    
+
+			html中不区分大小写，我们通常使用小写
+			html中的注释不能嵌套
+			html标签必须结构完整，成对出现或者有自结束标签
+知识点：xhtml语法规范	html标签可以嵌套，但是不能交叉
+			html标签的属性必须有值，且必须加双引号，部分属性可以仅写属性名
+
+target="_blank"   在新窗口打开
+   target="_self"  默认，在自身窗口打开
+空心圆：circle     黑色方块：square   实心圆：disc（默认）
+
+cellspacing      单元格间距 （默认2）
+cellpadding     表格边框与内容的间距 默认是0
+
+表格   align  水平对齐  -- left/center/ right
+          valign  垂直对齐-- top/middle/bottom
+
+scrolling  是否在 iframe 中显示滚动条。yes/no/auto;
+
+Trident内核：主要代表为IE浏览器  前缀为-ms
+Gecko内核：主要代表为Firefox火狐  前缀为-moz
+Presto内核：主要代表为Opera欧朋  前缀为-o
+Webkit内核：产要代表为Google Chrome谷歌和Safari 苹果专用  前缀为-webkit
+
+b)超链接访问后效果——a:visited{属性：属性值；}
+d)超链接被激活的效果——a:active{属性：属性值；}
+
+不同的选择器有不同的权重值：
+内联样式：权重是 1000
+id选择器：权重是 100
+类、属性、伪类选择器：权重是 10
+元素选择器：权重是 1
+通配符：权重是 0
+
+子选择器 E>F：选择所有作为E元素的子元素F。  	
+相邻选择器E+F ：选择紧贴在E元素之后F元素。 
+兄弟选择器 E~F ：选择E元素后面的所有兄弟元素F。
+
+.Font-style：italic倾斜 normal不倾斜
+white-space 空白处理及换行：pre：空白会被浏览器保留。
+			pre-wrap：保留空白序列，但是正常的进行换行
+			pre-line：合并空白序列，保留换行符
+contain--使原始图像的宽度或高度完全等于元素的宽度或高度
+cover--使原始图像在维持纵横比的前提下将背景图像自动缩放到填满元素内部
+rgba色值：rgba(255,255,255,0.4)
+					visible默认值。元素是可见的。
+		知识点1.visibility 显示隐藏        hidden	元素是不可见的。
+						block类型
+		知识点2.Display显示隐藏与行内块              none
+第8节.显示与隐藏     
+					    visible： -可见对溢出内容不做处理，内容可能会超出容器。（默认）
+		知识点3.overflow溢出显示隐藏     hidden：--隐藏	隐藏溢出容器的内容且不出现滚动条。
+					      scroll：--滚动	隐藏溢出容器的内容，溢出的内容将以卷动滚动条的方式呈现。（不论是否内容溢出都会显示）
+					       auto：按需出现滚动条	当内容没有溢出容器时不出现滚动条，当内容溢出容器时出现滚动条，按需出现滚动条。
+		
+		知识点4.text-overflow文本溢出     clip	修剪文本。
+					   ellipsis	显示省略符号来代表被修剪的文本。
+					   string	使用给定的字符串来代表被修剪的文本。
+border-radius（边框圆角）
+		1、父级div定义height    缺点：只适合高度固定的布局，要给出精确的高度，如果高度和父级div不一样时，会产生问题。
+				       优点：简单，代码少，容易掌握。
+		2、结尾处加空div标签clear:both   缺点：如果页面浮动布局多，就要增加很多空div，让人感觉很不爽。
+					    优点：简单，代码少，浏览器支持好，不容易出现怪问题。
+		3、父级div定义overflow:hidden   优点：简单，代码少，浏览器支持好。
+清除浮动的方法:                                                            缺点：不能和position配合使用，因为超出的尺寸的会被隐藏。
+		4、父级div定义伪类:after              优点：浏览器支持好，不容易出现怪问题
+					     缺点：代码多，
+padding不能写负值，margin可以写负值
+以下哪些元素默认会自带边框   hr为水平线，textarea为文本域
+以下属于文本水平对齐text-align的属性值的有 justify left right center
+是有序列表ol的html属性 type  start
+下列可以设置内容大小写的属性有text-transform  font-variant该属性主要用于定义小型大写字母文本
+
+可以设置表格table水平对齐或垂直对齐  align水平对齐  valign垂直对齐
+默认倾斜的元素有em i
+text-indent,margin的属性允许属性值为负数，padding的属性值不可以为负数，width可以写百分比
+以下(   )标签用于在表单中构建复选框  <input type="checkbox"/>
+元素宽高度自适应窗口高度设置方法( html,body{ width:100%;height:100%; }  )
+关于块状元素说法正确的是 块状元素一般都作为其他元素的容器，它可以容纳其他内联元素和其他块状元素，我们可以把这种容器比喻为一个盒子
+网页中，常见的图片格式为jpg,png,gif
+只有overflow属性可以设置盒子内的文本溢出，让盒子显示滚动条
+ 元素类型分为（）三种类型：内联元素（行内元素）、块状元素、可变元素
+absolute定位的描述：absolute定位的元素可以使用z-index属性，添加absolute定位的元素的堆叠顺序比没有添加position声明的元素高，
+          可以结合left，top，right，bottom属性，确定元素定位的坐标，
+a和是内联元素，div是块元素，都属于非置换元素；
+是伪元素选择符 ::first-letter,::first-line,::before,::after
+
+可以解决高度塌陷的是: A 给浮动元素的父元素添加声明overflow:hidden
+		 B 在浮动元素下方添加空div,并给该元素添加声明：clear:both;height:0;overflow:hidden;
+		C :after{content:".";clear:both;display:block;height:0;overflow:hidden;visibility:hidden;}
+设置盒子中的文本溢出时显示省略号:a盒子需要设置width属性，设置overflow:hidden
+		b 设置white-space:nowrap      c  设置text-overflow:ellipsis
+常见的行内元素有a  span  em  i  b strong
+z-index属性可以设置元素的层级关系，可以设置负数，z-index的默认值是auto
+contain:图片自身的宽高比不变，缩放至图片自身能完全显示出来
+标记input  img的元素类型是inline-block,
+align-self的属性值: auto|stretch|center|flex-start|flex-end|baseline|initial|inherit;
+div+p选择符:  选择紧位于div同级元素下的最近的p标签
+background-origin :规定背景图片的定位区域开始的位置
+box-sizing属性值border-box怪异盒子模型，content-box标准盒子模型默认值
+
+align-self设置弹性元素自身在侧轴开始的位置的属性值是
+	flex-stretch伸缩属性，flex-start开始位置，flex-end结束位置，align-start无此属性值
+CSS3指定了属性名，并且有属性值，而且属性值是以value结束的:  a[title$="value"]
+video 标签中的属性：loop是循环播放，autoplay是自动播放，poster是加载前的封面
+解决min-height的兼容问题最好的方法是： height:auto !important; height:value;
+表格行分组包括：   thead    tbody   tfoot
+	<input type="text"/>文本框
+	<input type="radio"/>单选按钮
+	<input type="checkbox"/>复选框
+	<input type="password"/>密码框
+页面头部优化的方式包括（）
+	<meta name="keywords"   content="" />   设置关键字
+	<meta name="description"    content=""/>设置网页内容描述
+	<title></title>标题
+div不属于h5
+h5新增input的表单属性值包括   1.type:email :email地址类型     2.type:tel :电话类型
+	   3.type:url :url类型     4.type:search :搜索类型        5.type:range  :  特定范围内的数值选择器
+表单新增的"元素"有（   ）datalist   output
+box-sizing属性可以为三个值之一：content-box（default），border-box
+优化网页需要机构样式分离 存文本超链接搜索引擎越喜欢 图片大小适中最好 越大打开页面越慢
+box-shadow：10px 10px 10px 10px red代码的说法: 第一个属性值表示左右移值 第二个属性值表示上下偏移值
+    			第三个值表示模糊程度   第四个值表示阴影大小	
+background-image只能设置多图路径不能设置平铺

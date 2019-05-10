@@ -1,0 +1,68 @@
+.nav-wrap{
+    height:83px;
+    background:#1C1A21;
+}
+.nav{
+    width:1198px;
+    height:83px;
+    margin: auto;
+}
+.nav h1 img{
+    float:left;
+}
+.nav ul{
+    float:left;
+    margin-left:480px;
+    text-align:center;
+    line-height: 83px;
+    
+}
+.nav ul li{
+    float: left;
+    height: 83px;
+}
+.nav li a{  
+    width:30px;
+    font-size:16px;
+    color: #FFFFFF;
+    margin:0 12px;
+    transition: all 2s;
+}
+
+.nav .active, .nav a:hover  {
+   border-bottom: 2px solid red;
+   font-size: 20px;
+}
+
+.nav span {
+    padding: 0 14px;
+    line-height: 83px;
+    color: #FFFFFF;
+}
+.nav img {
+    line-height: 83px;
+    vertical-align: middle;
+}
+
+/*网页的尾部*/
+.footer{
+    height: 216px;
+    background: #1f1e26;
+}
+.footer1{
+    width:1198px;
+    margin: auto;
+    background: #1f1e26;
+    height:216px;
+}
+.footer1 p{
+    font-size:11px;
+    color:#5c5b5f;
+    text-align: center;
+    line-height: 78px;
+    width:1198px;
+    display: inline-block;
+}
+.footer1 img{
+	margin-left:500px;
+	}

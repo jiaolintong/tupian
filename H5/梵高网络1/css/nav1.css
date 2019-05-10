@@ -1,0 +1,100 @@
+.nav-wrap{
+    height:83px;
+    background:#ffffff;
+}
+.nav{
+    width:1198px;
+    height:83px;
+    margin: auto;
+}
+.nav h1 img{
+    float:left;
+}
+.nav ul{
+    float:left;
+    margin-left:480px;
+    text-align:center;
+    line-height: 83px;
+    
+}
+.nav ul li{
+    float: left;
+    height: 83px;
+}
+.nav li a{  
+    width:30px;
+    font-size:16px;
+    color: #555555;
+    margin:0 12px;
+    transition: all 2s;
+}
+
+.nav .active, .nav a:hover  {
+   border-bottom: 2px solid red;
+   font-size: 20px;
+}
+
+.nav span {
+    padding: 0 14px;
+    line-height: 83px;
+    color: #555555;
+}
+.nav img {
+    line-height: 83px;
+    vertical-align: middle;
+}
+
+/*网页的尾部*/
+.footer{
+    height: 216px;
+    background: #1f1e26;
+}
+.footer1{
+    width:1198px;
+    margin: auto;
+    background: #1f1e26;
+    height:216px;
+}
+.footer1 p{
+    font-size:11px;
+    color:#5c5b5f;
+    text-align: center;
+    line-height: 78px;
+    width:1198px;
+    display: inline-block;
+}
+.footer1 img{
+	margin-left:500px;
+	}.header{
+    height: 83px;
+    background: red;
+}
+.header1{
+    height:83px;
+    width:1190px;
+    margin:auto;
+    background: blue;
+}
+.header h1 img{
+    float:left;
+}
+.header1 ul{
+    float:left;
+    margin-left:440px;
+    line-height: 83px;
+    /*height: 83px;*/
+    text-align: center;
+}
+.header1 ul li{
+    float:left;
+    padding: 0 12px;
+    background: pink;
+}
+.header1 ul li a{
+    /*width:30px;*/
+    font-size:16px;
+    color: #55555;
+}
+.header1 span{
+    line-height:98px;
+}

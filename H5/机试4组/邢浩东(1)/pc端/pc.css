@@ -1,0 +1,140 @@
+*{
+    margin: 0; padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.qq{
+    height: 64px;
+}
+.qq1{
+    height: 64px;
+    width: 1122px;
+    margin: 0 auto;
+}
+.qq .qq1 .qq2{
+    float: left;
+}
+.qq .qq2 img{
+    margin-top: 20px;
+}
+.qq .qq1 ul{
+   width: 569px;
+   height: 64px;
+   margin-left: 202px;
+
+   float: left;
+}
+.qq .qq1 ul li {
+    float: left;
+    text-align: center;
+    line-height: 64px;
+    margin-right: 33px;
+    font-size: 13px;
+
+}
+.qq .qq1 ul li a{
+    color: #333333;
+}
+.qq .qq1  .qq3 img{
+    margin-top: 26px;
+}
+
+.ww img{
+    width: 99%;
+    display: block;
+}
+.cav{
+    height: 136px;
+    
+}
+.cav .cav1{
+    height: 136px;
+    width: 909px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cav .cav1 ul{
+    height: 97px;
+    width: 909px;
+    margin-top: 39px; 
+    float: left;
+}
+.cav ul li{
+    float: left;
+    width: 100px;
+    height: 97px;
+    text-align: center;
+}
+.cav ul li p{
+   margin-top: 31px;
+   font-size: 12px;
+   color: #333333;
+   line-height: 1;
+}
+
+.tu img{
+    width: 100%;
+    display: block;
+}
+.pp{
+    height: 390px;
+}
+.pp1-1{
+    float: left;
+    width: 50%;
+    height: 390px;
+}
+.pp1-1 img{
+    width: 100%;
+    height: 390px;
+}
+.pp1{
+    float: left;
+    background:url(images/about_02.jpg)no-repeat ;
+    width: 50%;
+    height: 390px;
+}
+.pp1 h3{
+    font-size: 24px;
+    margin-top: 85px;
+    margin-left: 77px
+}
+.pp1 p{
+    width: 489px;
+    font-size: 13px;
+    margin-top: 45px;
+    line-height: 25px;
+    margin-left: 15px; 
+}
+.pp2{
+    width: 120px;
+    height: 39px;
+    background: #317FF7;
+    border-radius: 25px/19px;
+    margin-left: 359px;
+    margin-top: 30px;
+}
+.pp2 a{
+    line-height: 39px;
+    margin-left: 30px;
+    color: #FEFEFE;
+    font-size: 12px;
+}
+.zhong{
+    height: 220px;
+}
+.zhong .zhong1{
+    height: 220px;
+    width: 338px;
+    margin: 0 auto;
+}
+.zhong .zhong1 h2{
+    font-size: 36px;
+    color: #333333;
+    margin-top: 51px;
+    text-align: center;
+}
